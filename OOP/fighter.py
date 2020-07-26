@@ -9,10 +9,14 @@ class Fighter:
         self.style = style
 
     def full_name(self):
-        return self.fname + self.lname
-
+        print(self.fname + " " + self.lname)
 
 
 f1 = Fighter("Jon", "Jones", 32, 20, 1, "Freestyle")
 f2 = Fighter("Conor", "Mcgregor", 30, 18, 4, "Boxer")
 f3 = Fighter("Ryan", "Hall", 29, 16, 5, "BJJ")
+
+
+f1.full_name()
+f2.full_name()
+f3.full_name()
